@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Dynamic Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Modal for Adding Widget -->
+  <div class="main-body">
+    <div class="cover-the-page">cover</div>
+    <div class="overflow-container">
+        <div class="header"><h5>Add widget</h5> <i onclick="hideSidebar()">close</i></div>
+        <h6 id="heading">Personalise your Dashboard by adding the following widget</h6>
+        <div class="widget-menu">
+            <button class="menu-item" data-target="cspm">CSPM</button>
+            <button class="menu-item" data-target="image">Image</button>
+            <button class="menu-item" data-target="ticket">Ticket</button>
+        </div>
+    <div class="widget-content-container">
+        <div class="widget-content" id="cspm">
+            <label><input type="checkbox">Cnfpp cloud data</label>
+            <label><input  type="checkbox">Cloud data management analysis</label>
+        </div>
+        <div class="widget-content" id="image">
+            <label><input  type="checkbox"> <img src="assests\79fbb65863258647356ba91693047bec.jpg" alt=""> </label>
+            <label><input  type="checkbox"><img src="assests\pngtree-bar-chart-vector-icon-png-image_3743083.jpg" alt=""></label>
+            <label><input   type="checkbox"><img src="assests\round-shape-chart-depicting-doughnut-graph-vector.jpg" alt=""></label>
+        </div>
+        <div class="widget-content" id="ticket">
+            <label><input  type="checkbox">sample text for cnfpp</label>
+            <label><input  type="checkbox">lorem impsum solet dolor</label>
+        </div>
+    </div>
+       
+       
+    </div>
+    <!-- navbar  -->
+    <header>
+        <nav>
+            <div>
+                <h4>Dashboard</h4>
+            </div>
+            <div id="input-navlinks">
+                <input id="nav-wala-input" placeholder="cloud management" type="text">
+                <h6>Account <i></i></h6>
+            </div>
+        </nav>
+    </header>
+    <!-- category container  -->
+    <div class="category">
+        <h5>CNAPP Dashboard</h5>
+        <div id="button-input">
+            <button  id="add-widget-btn">Add Widget +</button>
+            <button>Refresh</button>
+            <button>Menu</button>
+            <button onclick="showSidebar()">Data</button>
+            <input type="week">
+        </div>
+    </div>
+    <!-- container  -->
+<div class="widget-container">
+    
+    
+<!-- widget body  -->
+    <div class="widget">
+        <h6>Cspm Executive Dashboard</h6>
+        <div id="widget-content">
+            <h6>Cloud Accounts</h6>
+            <div id="img-and-data">
+               <img src="assests/pngtree-bar-chart-vector-icon-png-image_3743083.jpg">
+               <ul>Connected (2)</ul>
+               <ul>Not Connected (2)</ul>
+            </div>
+        </div>
+    </div>  
+ 
+    
+
+</div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

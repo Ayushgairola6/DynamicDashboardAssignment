@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "name": "CSPM Executive Dashboard",
+      "graph":"assests/pngtree-bar-chart-vector-icon-png-image_3743083.jpg",
+      "widgets": [
+        { "name": "Cloud Accounts", "text": "connected" },
+        { "name": "Cloud Account Risk Assessment", "text": "9659 total" },
+        { "name": "Widget 3", "text": "Sample Text 3" },
+        { "name": "Widget 4", "text": "Sample Text 4" },
+        { "name": "Widget 5", "text": "Sample Text 5" }
+      ]
+    },
+    {
+      "name": "Registry Scan",
+      "graph":"assests/79fbb65863258647356ba91693047bec.jpg",
+      "widgets": [
+        { "name": "Widget 6", "text": "Sample Text 6" },
+        { "name": "Widget 7", "text": "Sample Text 7" },
+        { "name": "Widget 8", "text": "Sample Text 8" },
+        { "name": "Widget 9", "text": "Sample Text 9" }
+      ]
+    },
+    {
+      "name": "Network Monitoring",
+      "graph":"assests/round-shape-chart-depicting-doughnut-graph-vector.jpg",
+      "widgets": [
+        { "name": "Widget 10", "text": "Sample Text 10" },
+        { "name": "Widget 11", "text": "Sample Text 11" },
+        { "name": "Widget 12", "text": "Sample Text 12" },
+        { "name": "Widget 13", "text": "Sample Text 13" },
+        { "name": "Widget 14", "text": "Sample Text 14" }
+      ]
+    }
+   
+  ]
+}
+
